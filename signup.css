@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(234, 234, 235, 0.9);
+    /* background-image: url(./facbook\ background.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.app{
+    width: 435px;
+    height: 550px;
+    margin-top: 4rem;
+    background-color: #ffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+}
+.heading{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content:space-between;
+}
+.heading img{
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem
+}
+.heading h1{
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.easy p{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #606770;
+    margin-left: 1rem;
+}
+.line{
+    margin-top: 1rem;
+    border: 0.1px solid #dadde1;
+}
+
+.form .first{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family:  Helvetica, Arial, sans-serif;
+    height: 40px;
+}
+.form .first #surname{
+    margin-left: 1rem;
+    width:194px ;
+    padding: 11px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #dddfe2;
+
+}
+.form .first #name{
+    width:194px ;
+    padding: 11px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #dddfe2;
+
+}
+ /* .second{ 
+   background-color: yellow;
+} */
+.email input{
+    width: 405px;
+    height: 40px;
+    padding: 11px;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #ccd0d5;
+}
+ .password input{
+    width: 405px;
+    height: 40px;
+    padding: 11px;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+    border-radius: 6px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #dddfe2;
+}
+.third p {
+    color: #606770;
+    font-size: 12px;
+    font-family:Helvetica, Arial, sans-serif;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.third #birth-date{
+    width: 125px;
+    height: 36px;
+    margin-left: 1rem;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #dddfe2;
+}
+.third #month{
+    width: 125px;
+    height: 36px;
+    margin-left:0.67rem ;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #dddfe2;
+}
+.third #year{
+    width: 125px;
+    height: 36px;
+    margin-left:0.67rem;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #dddfe2;
+}
+.forth p{
+    color: #606770;
+    font-size: 12px;
+    font-family:Helvetica, Arial, sans-serif;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.forth .gender{
+    display: flex;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #1C1E21;
+}
+.forth .male{
+    width: 125px;
+    height: 36px;
+    border: 1px solid #dddfe2;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #dddfe2;
+
+}
+.forth .female{
+    width: 125px;
+    height: 36px;
+    border: 1px solid #dddfe2;
+    margin-left:0.67rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    outline: none;
+}
+.forth .custom{
+    width: 125px;
+    height: 36px;
+    border: 1px solid #dddfe2;
+    margin-left:0.67rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    outline: none;
+}
+.para {
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #777777;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.para .p2{
+    margin-top: 1rem;
+}
+.para a{
+    text-decoration: none;
+}
+.para a:hover{
+    text-decoration:underline;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    width:194px ;
+    height:36px ;
+    background-color: #00a400;
+    color:#ffff ;
+    font-weight: bold;
+    font-size: 17px;
+    font-family:  Helvetica, Arial, sans-serif;
+    margin-top: 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+.btn button:hover{
+    background-color: #67c767d2;
+}
